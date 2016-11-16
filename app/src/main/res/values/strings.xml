@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Locker</string>
+    <string name="title_activity_initial_lock">InitialLock</string>
+</resources>
