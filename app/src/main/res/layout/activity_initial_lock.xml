@@ -13,16 +13,44 @@
         android:inputType="numberPassword"
         android:ems="10"
         android:id="@+id/password"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginBottom="62dp"
+        android:layout_above="@+id/continueButton"
+        android:layout_alignRight="@+id/password"
+        android:layout_alignEnd="@+id/password"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password" />
 
     <Button
         android:text="Continue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/continueButton"
+        android:layout_marginTop="23dp"
+        android:onClick="checkForPassword"
         android:layout_below="@+id/password"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="67dp"
-        android:onClick="checkForPassword"/>
+        style="@android:style/Widget.Material.Button.Colored" />
+<!--
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_below="@+id/continueButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="56dp"
+        android:onClick="showDB"/>
+-->
 </RelativeLayout>

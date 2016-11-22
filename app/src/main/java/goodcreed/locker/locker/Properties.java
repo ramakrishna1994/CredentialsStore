@@ -10,6 +10,7 @@ public class Properties {
     public static String TABLE_NAME="details";
     public static String[] COLUMN_NAMES = new String[]{"id","description","passcode"};
     public static String[] COLUMN_TYPES = new String[]{"integer primary key autoincrement","text","text"};
-    public static String secretCode = "1234";
+    public static String KEY = "!@#$)(*&$%^&)(*&qwerBHYG!@#$CVDF";
+    public static String IV = "^%&$)(*&DFGT1234";
 
 }
