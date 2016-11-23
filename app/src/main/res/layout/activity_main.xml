@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="goodcreed.locker.locker.MainActivity">
+    tools:context="goodcreed.locker.locker.MainActivity"
+    android:background="@drawable/security">
 
     <Button
         android:text="View All"
