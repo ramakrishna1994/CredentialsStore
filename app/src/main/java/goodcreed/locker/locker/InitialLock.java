@@ -132,4 +132,9 @@ public class InitialLock extends AppCompatActivity {
 
         }
     }
+
+    public void showTAndC(View v){
+        Intent i = new Intent(InitialLock.this, TermsAndConditions.class);
+        startActivity(i);
+    }
 }

@@ -41,6 +41,17 @@
         android:layout_above="@+id/password"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:text="Terms &amp; Conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tandc"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="showTAndC"/>
+
     <!--
         <Button
             android:text="Next"

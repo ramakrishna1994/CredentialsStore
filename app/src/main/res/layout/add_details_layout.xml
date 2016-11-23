@@ -4,21 +4,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/security">
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text=""
-        android:ems="10"
-        android:id="@+id/passcodeValue"
-        android:layout_below="@+id/passcodeName"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textAlignment="center"
-        android:textColor="@color/common_google_signin_btn_text_dark_default"/>
-
     <TextView
         android:text="Enter PassCode"
         android:layout_width="wrap_content"
@@ -39,21 +24,6 @@
         android:layout_marginTop="51dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/common_google_signin_btn_text_dark_default"/>
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text=""
-        android:ems="10"
-        android:id="@+id/descriptionValue"
-        android:layout_below="@+id/descriptionName"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textAlignment="center"
         android:textColor="@color/common_google_signin_btn_text_dark_default"/>
 
     <Button
@@ -80,4 +50,37 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
         style="@android:style/Widget.Material.Button.Colored" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/passcodeValue"
+        android:focusable="true"
+        android:background="@drawable/backwithborder"
+        android:layout_below="@+id/passcodeName"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/descriptionValue"
+        android:textColor="@android:color/white"
+        style="@android:style/Widget.Material.EditText"
+        android:selectAllOnFocus="true"
+        android:background="@drawable/backwithborder"
+        android:lineSpacingExtra="8sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/descriptionName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
 </RelativeLayout>
